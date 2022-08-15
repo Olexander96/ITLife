@@ -1,0 +1,20 @@
+.team {
+    display: flex;
+    padding: 150px 0; /*150*/
+
+    &__title {
+        line-height: 41px;/*41*/
+        margin-bottom: 64px; /*64*/
+    }
+
+    &__subtitle {
+        margin-bottom: 60px;/*60*/
+    }
+
+    .team-card {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+    }
+}

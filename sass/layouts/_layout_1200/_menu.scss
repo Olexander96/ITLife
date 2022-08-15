@@ -1,0 +1,13 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+
+    &__item {
+        &:not(:last-child) {
+            margin-right: 30px;
+            margin-bottom: 0px;
+        }
+    }
+}

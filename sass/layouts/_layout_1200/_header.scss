@@ -1,0 +1,15 @@
+.header {
+    &__nav {
+        .menu {
+            display: flex;
+        }
+
+        .menu-button {
+            display: none;
+        }
+    }
+
+    &__callback {
+        display: flex;
+    }
+}
